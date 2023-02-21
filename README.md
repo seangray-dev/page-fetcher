@@ -25,10 +25,10 @@ node fetcher.js <url> <file-path>
 
 Replace `<url>` with the URL of the file you want to download and `<file-path>` with the local file path where you want to save the downloaded file.
 
-If the file path already exists, the application will prompt you to confrim if you want to overwrite the existing file.
-
 For example:
 
 ```
 node fetcher.js http://www.example.edu/ ./index.html
 ```
+
+If the file path already exists, the application will prompt you to confrim if you want to overwrite the existing file.
